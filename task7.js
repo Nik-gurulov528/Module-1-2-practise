@@ -5,8 +5,8 @@
 
 'use strict';
 
-let num = 0;
+let num = null;
 
 do {
   num = prompt('Please, enter number, which is bigger than 100: ');
-} while (num <= 100);
+} while (num <= 100 && num !== null);
